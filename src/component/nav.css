@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.logo{
+    border: 1px solid black;
+}
+
+.menu-link ul{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;    
+}
+
+.menu-link ul li{
+    list-style: none;   
+    margin: 10px;
+}
